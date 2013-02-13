@@ -80,7 +80,7 @@ class Icon extends KMLObject {
   }
   
   public function setRefreshInterval($refreshInterval) {
-    $this->href = $refreshInterval;
+    $this->refreshInterval = $refreshInterval;
   }
   
   public function getViewRefreshMode() {
